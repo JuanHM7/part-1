@@ -1,13 +1,8 @@
 let cash = 50;
-let price = 40;
-let isStoreOpen = true;
+let price = 50;
+let isStoreOpen = false;
+let difference = cash - price;
 
-if (cash >= price && isStoreOpen === true){
-    console.log('print receipt')
-}
-else if ( cash === price && isStoreOpen !==true) {
-    console.log("you paid the exact amount, have a nice day!")
-}
-else{
-    console.log(`not enough money - you still owe ${difference * -1 } dollars`)
-}
+ let result = difference >=0 && isStoreOpen ? 'give receipt' : 'do not give receipt';
+console.log(result);
+
