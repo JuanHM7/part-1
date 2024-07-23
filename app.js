@@ -1,5 +1,6 @@
-let subscribed = true;
-let loggedIn = true;
+let count = 1;
 
-let str = subscribed && loggedIn ? 'show the video' : ' hide the video';
-console.log (str);
+while (count <=100) {
+    console.log(count);
+    count = count +1;
+}
