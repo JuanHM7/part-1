@@ -1,7 +1,5 @@
-let cash = 50;
-let price = 40;
-let isStoreOpen = false;
+let subscribed = true;
+let loggedIn = true;
 
-if (cash >= price && !isStoreOpen) {
-    console.log ("print the receipt")
-}
+let str = subscribed && loggedIn ? 'show the video' : ' hide the video';
+console.log (str);
