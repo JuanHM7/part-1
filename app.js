@@ -5,8 +5,10 @@
 //     count = count +1;
 // }
 
-for (let i = 0; i <=19;  i++){
-    console.log("Frontend Simplified"[i]) 
+const str="Frontend Simplified"
+
+for (let i = 0; i <str.length;  i++){
+    console.log(str[i]) 
 }
 
 
