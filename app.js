@@ -6,13 +6,12 @@
 // }
 
 
-function convertctof (c){
-     return c*1.8 + 32
-}
+let arr = [20, 30, 40, 50, 100]
 
-    console.log(convertctof(0)) 
-    console.log(convertctof(10)) 
-    console.log(convertctof(30)) 
+console.log(arr[arr.length - 1])
 
+arr.push(200)
 
+arr.filter(() => {})
 
+console.log(arr)
