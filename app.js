@@ -6,12 +6,16 @@
 // }
 
 
-let arr = [20, 30, 40, 50, 100]
+let grades1 = ['A+', 'A', "FAIL"]
+let grades2 = ['Fail', 'Fail', 'B' ]
+let grades3 = ['Fail'];
 
-console.log(arr[arr.length - 1])
 
-arr.push(200)
+let grades11 = grades1.filter(element => element.length <= 2 )
+console.log(grades11)
 
-arr.filter(() => {})
+let grades22 = grades2.filter(element => element.length <= 2 )
+console.log(grades22)
 
-console.log(arr)
+let grades33 = grades3.filter(element => element.length <= 2 )
+console.log(grades33)
