@@ -5,13 +5,12 @@
 //     count = count +1;
 // }
 
+let dollars = [1 , 5 , 10, 3]
+let cents= [];
 
-let g = ['A+','A','FAIL','B'];
-let g2 = [];
-for(i=0; i<g.length;++i){
-    if(g[i] !== 'FAIL'){
-        g2.push(g[i]);
-        
-    }
+for(i=0;i<4;i++){
+   cents.push(dollars[i]*100)
 }
-console.log(g2);
+
+console.log(cents);
+
